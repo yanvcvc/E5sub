@@ -17,6 +17,7 @@ def shellSort(arr):
 
 # 生成2000个随机数（10000以内）
 arr = [random.randint(1, 10000) for _ in range(2000)]
+print("随机数列表:",arr)
 
 # 记录开始时间
 start = time.time()
